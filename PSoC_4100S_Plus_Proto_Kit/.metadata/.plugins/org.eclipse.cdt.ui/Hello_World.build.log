@@ -1,0 +1,41 @@
+09:31:52 **** Incremental Build of configuration Debug for project Hello_World ****
+"C:\\Users\\KumarDharani\\ModusToolbox\\tools_3.4\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/KumarDharani/ModusToolbox/tools_3.4 CY_IDE_BT_TOOLS_DIR= -j8 build_proj 
+Tools Directory: C:/Users/KumarDharani/ModusToolbox/tools_3.4
+Searching installed tools in progress...
+Searching installed tools complete
+NOTE: Using 'C:/Users/KumarDharani/ModusToolbox/tools_3.4/ninja/ninja.exe' from PATH.
+Generating mtbninja data files...
+Generating mtbninja data complete...
+Toolchain validation: PASS
+Initializing build: mtb-example-psoc4-hello-world Debug APP_CY8CKIT-149 GCC_ARM
+
+Prebuild operations complete
+# 0: Loading the application in directory 'C:/MTB/Hello_World'
+# 0: Loading the ModusToolbox Technology Packs and Early Access Packs
+# 0: Loading the tools information
+ninja: no work to do.
+==============================================================================
+= Build complete =
+==============================================================================
+
+   ---------------------------------------------------- 
+  | Section Name         |  Address      |  Size       | 
+   ---------------------------------------------------- 
+  | .text                |  0x00000000   |  5688       | 
+  | .ARM.exidx           |  0x00001638   |  8          | 
+  | .copy.table          |  0x00001640   |  12         | 
+  | .zero.table          |  0x0000164c   |  8          | 
+  | .ramVectors          |  0x20000000   |  192        | 
+  | .data                |  0x200000c0   |  52         | 
+  | .noinit              |  0x200000f8   |  32         | 
+  | .bss                 |  0x20000118   |  76         | 
+  | .heap                |  0x20000164   |  15004      | 
+  | .stack               |  0x20003c00   |  1024       | 
+   ---------------------------------------------------- 
+
+  Total Internal Flash (Available)          131072     
+  Total Internal Flash (Utilized)           5768       
+
+
+09:31:57 Build Finished. 0 errors, 0 warnings. (took 4s.692ms)
+

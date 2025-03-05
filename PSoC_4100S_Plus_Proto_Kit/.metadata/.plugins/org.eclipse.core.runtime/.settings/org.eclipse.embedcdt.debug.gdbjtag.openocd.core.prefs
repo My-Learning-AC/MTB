@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+gdb.client.commands=set mem inaccessible-by-default off
+gdb.client.doStart=true
+gdb.client.executable=${cy_tools_path\:CY_TOOL_arm-none-eabi-gdb_EXE}
+gdb.client.other=
+gdb.openocd.doDebugInRam=false
+gdb.openocd.doInitialReset=false
+gdb.openocd.doPreRunReset=true
+gdb.openocd.enableSemihosting=true
+gdb.openocd.init.other=
+gdb.openocd.initialReset.type=init
+gdb.openocd.preRun.other=mon psoc4 reset_halt\r\nflushregs\r\nmon gdb_sync\r\nstepi
+gdb.openocd.preRunReset.type=halt
+gdb.server.doStart=true
+gdb.server.executable=${openocd_path}/${openocd_executable}
+gdb.server.other=-s "${openocd_path}/../scripts"\r\n-c "set PSOC4_USE_ACQUIRE 1"\r\n-c "source [find interface/kitprog3.cfg]"\r\n-c "puts stderr {Started by GNU MCU Eclipse}"\r\n-c "source [find target/psoc4.cfg]"\r\n-c "psoc4.cpu configure -rtos auto -rtos-wipe-on-reset-halt 1"\r\n-c "init; reset init"

@@ -1,0 +1,114 @@
+09:31:13 **** Build of configuration Debug for project UART_Transmit_and_Receive ****
+"C:\\Users\\KumarDharani\\ModusToolbox\\tools_3.4\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/KumarDharani/ModusToolbox/tools_3.4 CY_IDE_BT_TOOLS_DIR= -j8 build_proj 
+Tools Directory: C:/Users/KumarDharani/ModusToolbox/tools_3.4
+Searching installed tools in progress...
+Searching installed tools complete
+NOTE: Using 'C:/Users/KumarDharani/ModusToolbox/tools_3.4/ninja/ninja.exe' from PATH.
+Generating mtbninja data files...
+Generating mtbninja data complete...
+Toolchain validation: PASS
+Initializing build: mtb-example-psoc4-uart-transmit-receive Debug APP_CY8CKIT-149 GCC_ARM
+
+Prebuild operations complete
+# 0: Loading the application in directory 'C:/MTB/UART_Transmit_and_Receive'
+# 0: Loading the ModusToolbox Technology Packs and Early Access Packs
+# 0: Loading the tools information
+# 0: Starting code generator 'capsense-configurator-cli '
+[1/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/bsps/APP_CY8CKIT-149/config/GeneratedSource/cycfg_capsense.o
+[2/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/bsps/APP_CY8CKIT-149/config/GeneratedSource/cycfg.o
+[3/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/bsps/APP_CY8CKIT-149/config/GeneratedSource/cycfg_clocks.o
+[4/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/bsps/APP_CY8CKIT-149/config/GeneratedSource/cycfg_peripherals.o
+[5/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/bsps/APP_CY8CKIT-149/config/GeneratedSource/cycfg_system.o
+[6/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/bsps/APP_CY8CKIT-149/startup_psoc4100sp.o
+[7/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/bsps/APP_CY8CKIT-149/config/GeneratedSource/cycfg_pins.o
+[8/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/bsps/APP_CY8CKIT-149/cybsp.o
+[9/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/local/main.o
+[10/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/bsps/APP_CY8CKIT-149/system_cat2.o
+[11/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_canfd.o
+[12/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/COMPONENT_CM0P/TOOLCHAIN_GCC_ARM/cy_syslib_gcc.o
+[13/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_crypto_aes.o
+[14/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_crwdt.o
+[15/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_crypto_hw.o
+[16/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_crypto_sha.o
+[17/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_crypto_crc.o
+[18/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_crypto_trng.o
+[19/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_cryptolite_sha.o
+[20/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_cryptolite_aes.o
+[21/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_gpio.o
+[22/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_cryptolite_rsa.o
+[23/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_ctb.o
+[24/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_cryptolite_trng.o
+[25/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_hvss.o
+[26/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_csd.o
+[27/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_dmac.o
+[28/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_i2s.o
+[29/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_flash.o
+[30/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_lin.o
+[31/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_msclp.o
+[32/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_lpcomp.o
+[33/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_ltc.o
+[34/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_msc.o
+[35/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_sar.o
+[36/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_scb_common.o
+[37/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_scb_ezi2c.o
+[38/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_ram.o
+[39/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_scb_spi.o
+[40/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_scb_i2c.o
+[41/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_smartio.o
+[42/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_scb_uart.o
+[43/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_seglcd.o
+[44/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_sysfault.o
+[45/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_tcpwm_pwm.o
+[46/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_sysint.o
+[47/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_syslib.o
+[48/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_sysclk.o
+[49/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_tcpwm_counter.o
+[50/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_systick.o
+[51/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_tcpwm_quaddec.o
+[52/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_syspm.o
+[53/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_trigmux.o
+[54/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_usbfs_dev_drv_io.o
+[55/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_usbfs_dev_drv.o
+[56/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_usbpd_bch.o
+[57/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_usbpd_buck_boost.o
+[58/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_usbpd_lf_counter.o
+[59/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_usbpd_hpd.o
+[60/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_usbfs_dev_drv_io_dma.o
+[61/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_usbpd_phy.o
+[62/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_usbpd_mux.o
+[63/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_usbpd_typec.o
+[64/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_usbpd_config_table.o
+[65/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_usbpd_vbus_ctrl.o
+[66/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_usbpd_idac_ctrl.o
+[67/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_wdt.o
+[68/69] Building object file C:/MTB/UART_Transmit_and_Receive/build/Debug/libraries_shared/mtb-pdl-cat2/drivers/source/cy_wdc.o
+[69/69] Linking, creating elf file build/APP_CY8CKIT-149/Debug/mtb-example-psoc4-uart-transmit-receive.elf
+C:/Users/KumarDharani/ModusToolbox/tools_3.4/gcc/bin/arm-none-eabi-objcopy -O ihex C:/MTB/UART_Transmit_and_Receive/build/APP_CY8CKIT-149/Debug/mtb-example-psoc4-uart-transmit-receive.elf C:/MTB/UART_Transmit_and_Receive/build/APP_CY8CKIT-149/Debug/mtb-example-psoc4-uart-transmit-receive.hex
+==============================================================================
+= Build complete =
+==============================================================================
+
+Calculating memory consumption: CY8C4147AZI-S475 GCC_ARM
+
+
+   ---------------------------------------------------- 
+  | Section Name         |  Address      |  Size       | 
+   ---------------------------------------------------- 
+  | .text                |  0x00000000   |  6060       | 
+  | .ARM.exidx           |  0x000017ac   |  8          | 
+  | .copy.table          |  0x000017b4   |  12         | 
+  | .zero.table          |  0x000017c0   |  8          | 
+  | .ramVectors          |  0x20000000   |  192        | 
+  | .data                |  0x200000c0   |  52         | 
+  | .noinit              |  0x200000f8   |  32         | 
+  | .bss                 |  0x20000118   |  136        | 
+  | .heap                |  0x200001a0   |  14944      | 
+  | .stack               |  0x20003c00   |  1024       | 
+   ---------------------------------------------------- 
+
+  Total Internal Flash (Available)          131072     
+  Total Internal Flash (Utilized)           6140       
+
+
+09:31:26 Build Finished. 0 errors, 0 warnings. (took 13s.24ms)
+
